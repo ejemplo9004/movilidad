@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+    <link href="css/estilos_morion.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery.js"></script>
+	<script src="js/pharallax.js">
+
+	</script>
+	
+</head>
+
+<body onload="start()" >
+	<div class="csroll" id="csroll"></div>
+	<div id="scrollMsg"></div>
+	<div class="cosaScroll"></div>
+	<div class="sol" id="sol"></div>
+	<div class="montanas1" id="montanas1"></div>
+	<div class="montanas2" id="montanas2"></div>
+	<div class="metrocable" id="metrocable"></div>
+	<div class="anden" id="anden"></div>
+	<div class="metro" id="metro"></div>
+	<div class="edificios" id="edificios"></div>
+	<div class="zebra" id="zebra"></div>
+	<div class="carro2" id="carro2"></div>
+	<div class="agente" id="agente"></div>
+
+	<div class="PNJ1" id="PNJ1"></div>
+	<div class="PNJ2" id="PNJ2"></div>
+	<div class="PNJ3" id="PNJ3"></div>
+	<div class="PNJ4" id="PNJ4"></div>
+	<div class="PNJ5" id="PNJ5"></div>
+	<div class="PNJ6" id="PNJ6"></div>
+	<div class="PNJ7" id="PNJ7"></div>
+	
+	<div class="partido" id="partido"></div>
+	<div class="carro_parte" id="carro_parte"></div>
+	<div class="ciclista1" id="ciclista1"></div>
+	<div class="ciclista2" id="ciclista2"></div>
+	<div class="semaforo" id="semaforo"></div>
+	<div class="personaje" id="personaje"></div>
+	
+
+	<div class="semaforoVerde" id="semaforoVerde" onClick="cambiaEsperarVerde(1)"></div>
+
+
+
+	<div class="carro1" id="carro1"></div>
+	<div class="moto_acrobacias_globo" id="moto_acrobacias_globo"></div>
+	<div class="moto_acrobata" id="moto_acrobata"></div>
+	<div class="bus" id="bus"></div>
+	<div class="carro_carreras1" id="carro_carreras1"></div>
+	<div class="carro_carreras2" id="carro_carreras2"></div>
+	<div class="carro_globo" id="carro_globo"></div>
+	<div class="carro_no_carreras" id="carro_no_carreras"></div>
+	<div class="espiritu" id="espiritu"></div>
+	<div class="piedra" id="piedra"></div>
+	<div class="santo" id="santo"></div>
+	<div class="busRX" id="busRX"></div>
+	<div class="moto1" id="moto1"></div>
+	<div class="moto_sobrecupo" id="moto_sobrecupo"></div>
+	<div class="carro_casi_chocan" id="carro_casi_chocan"></div>
+	<div class="cuadroBlanco" id="cuadroBlanco">
+		<div class="cuadro" id="cuadro1"></div>
+		<div class="cuadro" id="cuadro2"></div>
+		<div class="cuadro" id="cuadro3"></div>
+		<div class="cuadro" id="cuadro4"></div>
+		<div class="cuadro" id="cuadro5"></div>
+		<div class="cuadro" id="cuadro6"></div>
+	</div>
+
+
+	<div id = "audio_mute" class = "audio_mute" onclick="PonerMute()"></div>
+<div id="preload">
+   <img src="imagenes/semaforo.png" width="1" height="1" alt="Image 01" />
+   <img src="imagenes/semaforo2.png" width="1" height="1" alt="Image 02" />
+   <img src="imagenes/persona.png" width="1" height="1" alt="Image 03" />
+   <img src="imagenes/persona_chocada.png" width="1" height="1" alt="Image 03" />
+
+   <audio id="carro_rapido" src="audio/carro_acelerando.mp3" preload="auto"></audio>
+   <audio id="bus_choque" src="audio/bus_choque.mp3" preload="auto"></audio>
+   <audio id="choque_taxi" src="audio/choque_taxi.mp3" preload="auto"></audio>
+   <audio id="frenazo" src="audio/frenazo.mp3" preload="auto"></audio>
+   <audio id="motocae" src="audio/choque_taxi.mp3" preload="auto"></audio>
+   <audio id="rayox" src="audio/rayox.mp3" preload="auto"></audio>
+   <audio id="semaforo_rojo" src="audio/semaforo_rojo.mp3" preload="auto"></audio>
+   <audio id="semaforo_verde" src="audio/semaforo_verde.mp3" preload="auto"></audio>
+   <audio id="motoacelerando" src="audio/motoacelerando.mp3" preload="auto"></audio>
+   <audio id="heavenlargo" src="audio/heavenlargo.mp3" preload="auto"></audio>
+   <audio id="musica_fondo" src="audio/fondo.mp3" preload="auto"></audio>
+   <audio id="busacelerando" src="audio/busacelerando.mp3" preload="auto"></audio>
+   <audio id="atropellado" src="audio/atropellado.mp3" preload="auto"></audio>
+   <audio id="mensaje1" src="" preload="auto"></audio>
+   <audio id="mensaje2" src="" preload="auto"></audio>
+   <audio id="mensaje5" src="" preload="auto"></audio>
+</div>
+</body>
+

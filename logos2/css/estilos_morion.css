@@ -1,0 +1,450 @@
+body {
+  background: #EAEEF1;
+  background-image: url('../imagenes/background.png');
+  background-repeat: repeat-x;
+  background-attachment:fixed;
+}
+
+.cosaScroll {
+  height: 35000px;
+  width: 3px;
+  background: url('../imagenes/persona.png') left center;
+}
+
+.personaje {
+  position:fixed;
+  width: 100px;
+  height: 90px;
+  margin: 2% auto;
+  left: 400px;
+  top: 0px;
+  margin-top: 330px;
+  background: url('../imagenes/persona.png') left center;
+  /*animation: caminar 1.2s steps(6) infinite;*/
+}
+.sol {
+  position:fixed;
+  width: 89px;
+  height: 88px;
+  left: 300px;
+  top: 90px;
+  background: url('../imagenes/sol.png') left center;
+}
+
+.carro1 {
+  position:fixed;
+  width: 210px;
+  height: 100px;
+  margin: 2% auto;
+  margin-left: 300px;
+  left: -20px;
+  top: 0px;
+  margin-top: 400px;
+  background: url('../imagenes/carro1.png') left center;
+  
+}
+
+.carro2 {
+  position:fixed;
+  width: 87px;
+  height: 69px;
+  margin: 2% auto;
+  left: 830px;
+  top: 0px;
+  margin-top: 300px;
+  background: url('../imagenes/carro2.png') left center;
+}
+
+.montanas1 {
+  position:fixed;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  height: 250px;
+  margin-top: 60px;
+  background: url('../imagenes/montanas1.png') left center;
+  background-repeat: repeat-x;
+}
+
+.anden {
+  position:fixed;
+  top:9px;
+  left: 0px;
+  width: 100%;
+  height: 290px;
+  margin-top: 180px;
+  background: url('../imagenes/anden.png') left center;
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+}
+
+.metro {
+  position:fixed;
+  top:0px;
+  left: -500px;
+  width: 489px;
+  height: 52px;
+  margin-top: 155px;
+  background: url('../imagenes/metro.png') left center;
+}
+
+.zebra {
+  position:fixed;
+  top:119px;
+  left: 0px;
+  width: 100%;
+  height: 290px;
+  margin-top: 180px;
+  background: url('../imagenes/cebra.png') left center;
+  background-position: 340px 0px;
+  background-repeat: no-repeat;
+}
+.semaforo {
+  position:fixed;
+  top:220px;
+  left: 725px;
+  width: 64px;
+  height: 187px;
+  background: url('../imagenes/semaforo.png') left center;
+}
+
+.montanas2 {
+  position:fixed;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  height: 250px;
+  margin-top: 80px;
+  background: url('../imagenes/montanas2.png') left center;
+  background-repeat: repeat-x;
+}
+
+.moto_acrobacias_globo {
+  position:fixed;
+  width: 233px;
+  height: 200px;
+  margin: 2% auto;
+  margin-left: 300px;
+  left: 50px;
+  top: 230px;
+  background: url('../imagenes/moto_acrobacias_globo.png') left center;
+  opacity: 0;
+}
+.moto_acrobata {
+  position:fixed;
+  width: 274px;
+  height: 120px;
+  margin: 2% auto;
+  margin-left: 300px;
+  left: -2000px;
+  top: 360px;
+  background: url('../imagenes/moto_acrobata.png') left center;
+}
+
+.semaforoVerde {
+  position:fixed;
+  width: 170px;
+  height: 180px;
+  margin: 2% auto;
+  left: 50%;
+  top: 0px;
+  opacity:  0;
+  background: url('../imagenes/esperar_verde2.png') left center;
+}
+
+.PNJ1 {
+  position:fixed;
+  width: 60px;
+  height: 80px;
+  margin: 2% auto;
+  left: 890px;
+  top: 250px;
+  background: url('../imagenes/pnj1.png') left center;
+}
+
+.PNJ2 {
+  position:fixed;
+  width: 60px;
+  height: 80px;
+  margin: 2% auto;
+  left: 890px;
+  top: 310px;
+  background: url('../imagenes/pnj2.png') left center;
+}
+
+.PNJ3 {
+  position:fixed;
+  width: 60px;
+  height: 80px;
+  margin: 2% auto;
+  left: 90px;
+  top: 310px;
+  background: url('../imagenes/pnj3.png') left center;
+}
+
+.PNJ4 {
+  position:fixed;
+  width: 60px;
+  height: 80px;
+  margin: 2% auto;
+  left: 1250px;
+  top: 250px;
+  background: url('../imagenes/pnj1.png') left center;
+}
+
+.PNJ5 {
+  position:fixed;
+  width: 60px;
+  height: 80px;
+  margin: 2% auto;
+  left: 1250px;
+  top: 250px;
+  background: url('../imagenes/pnj2.png') left center;
+}
+.PNJ6 {
+  position:fixed;
+  width: 130px;
+  height: 78px;
+  margin: 2% auto;
+  left: 1250px;
+  top: 250px;
+  background: url('../imagenes/karo_otelo.png') left center;
+}
+.PNJ7 {
+  position:fixed;
+  width: 50px;
+  height: 80px;
+  margin: 2% auto;
+  left: 1250px;
+  top: 300px;
+  background: url('../imagenes/melisa.png') left center;
+}
+
+.agente {
+  position:fixed;
+  width: 60px;
+  height: 81px;
+  margin: 2% auto;
+  left: 1250px;
+  top: 315px;
+  background: url('../imagenes/guardaanontando2.png') left center;
+}
+.partido {
+  position:fixed;
+  width: 50px;
+  height: 75px;
+  margin: 2% auto;
+  left: 1250px;
+  top: 320px;
+  background: url('../imagenes/alegando.png') left center;
+}
+
+.ciclista1{
+  position:fixed;
+  width: 90px;
+  height: 100px;
+  margin: 2% auto;
+  left: 1400px;
+  top: 280px;
+  background: url('../imagenes/bicicletas3.png') left center;
+}
+.ciclista2{
+  position:fixed;
+  width: 90px;
+  height: 100px;
+  margin: 2% auto;
+  left: 1400px;
+  top: 265px;
+  background: url('../imagenes/bicicletas5.png') left center;
+}
+
+.carro_carreras1{
+  position:fixed;
+  width: 160px;
+  height: 90px;
+  margin: 2% auto;
+  left: -800px;
+  top: 280px;
+  background: url('../imagenes/carro_carreras1.png') left center;
+}
+
+.carro_carreras2{
+  position:fixed;
+  width: 160px;
+  height: 90px;
+  margin: 2% auto;
+  left: -800px;
+  top: 280px;
+  background: url('../imagenes/carro_carreras2.png') left top;
+  opacity: 0;
+}
+
+
+.carro_globo {
+  position:fixed;
+  width: 200px;
+  height: 160px;
+  margin: 2% auto;
+  margin-left: 300px;
+  left: 80px;
+  top: 280px;
+  background: url('../imagenes/carro_globo.png') left center;
+  opacity: 0;
+}
+
+.carro_no_carreras {
+  position:fixed;
+  width: 195px;
+  height: 85px;
+  margin: 2% auto;
+  left: -800px;
+  top: 450px;
+  background: url('../imagenes/taxi.png') left center;
+}
+.carro_parte {
+  position:fixed;
+  width: 191px;
+  height: 91px;
+  margin: 2% auto;
+  left: -800px;
+  top: 370px;
+  background: url('../imagenes/carro_partido-38.png') left center;
+}
+
+.bus {
+  position:fixed;
+  width: 320px;
+  height: 130px;
+  margin: 2% auto;
+  left: -800px;
+  top: 360px;
+  background: url('../imagenes/bus-08.png') left center;
+}
+
+.espiritu {
+  position:fixed;
+  width: 60px;
+  height: 80px;
+  margin: 2% auto;
+  left: 460px;
+  top: 360px;
+  background: url('../imagenes/espiritu.png') left center;
+  opacity: 0;
+}
+.santo {
+  position:fixed;
+  width: 88px;
+  height: 86px;
+  margin: 2% auto;
+  left: 510px;
+  top: -100px;
+  background: url('../imagenes/santo.png') left center;
+  opacity: 0;
+}
+
+.busRX {
+  position:fixed;
+  width: 0px;
+  height: 130px;
+  margin: 2% auto;
+  left: -800px;
+  top: 355px;
+  background: url('../imagenes/bus-18.png') left center;
+}
+
+.moto_sobrecupo{
+  position:fixed;
+  width: 300px;
+  height: 170px;
+  margin: 2% auto;
+  left: -900px;
+  top: 330px;
+  background: url('../imagenes/motosobrecupo.png') left center;
+}
+
+.moto1{
+  position:fixed;
+  width:  140px;
+  height: 100px;
+  margin: 2% auto;
+  left:  -800px;
+  top:    450px;
+  background: url('../imagenes/harley.png') left center;
+}
+
+.carro_casi_chocan{
+  position:fixed;
+  width:  160px;
+  height: 91px;
+  margin: 2% auto;
+  left:  -800px;
+  top:    400px;
+  background: url('../imagenes/carro_veloz_baja.png') left center;
+}
+
+.cuadroBlanco{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: #FFF;
+  opacity: 0;
+}
+
+.cuadro{
+  position:fixed;
+  width: 600px;
+  height: 230px;
+  left: 130px;
+  top: 200px;
+  opacity: 0;
+  background: url('../imagenes/mensaje_final-01.png') left center;
+}
+
+.edificios{
+  position:fixed;
+  width: 2961px;
+  height: 350px;
+  left: 1200px;
+  top: -10px;
+  background: url('../imagenes/edificios.png') left center;
+}
+
+.piedra{
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  left: 1200px;
+  top: 470px;
+  background: url('../imagenes/piedra.png') left center;
+}
+
+.metrocable{
+  position:fixed;
+  width: 1353px;
+  height: 350px;
+  left:  12000px;
+  top:    -70px;
+  background: url('../imagenes/metrocable.png') left center;
+}
+.csroll{
+  position:fixed;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  top: 160px;
+  left: 350px;
+  background: url('../imagenes/cargando.gif') left top; 
+}
+
+.audio_mute{
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: url('../imagenes/boton_sonido.png') left top; 
+}
+
+div#preload { display: none; }
